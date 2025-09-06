@@ -82,3 +82,27 @@ button.delete {
 button.delete:hover {
   background: #c0392b;
 }
+
+/* 🎨 Variables de color */
+:root {
+  --bg-color: #f4f6f9;
+  --container-bg: #fff;
+  --text-color: #333;
+  --task-bg: #fafafa;
+  --btn-bg: #4CAF50;
+  --btn-hover: #45a049;
+  --delete-bg: #e74c3c;
+  --delete-hover: #c0392b;
+}
+
+/* 🌙 Modo oscuro */
+body.dark {
+  --bg-color: #1e1e1e;
+  --container-bg: #2a2a2a;
+  --text-color: #f1f1f1;
+  --task-bg: #333;
+  --btn-bg: #6c5ce7;
+  --btn-hover: #5a4bcf;
+  --delete-bg: #d63031;
+  --delete-hover: #b32121;
+}
